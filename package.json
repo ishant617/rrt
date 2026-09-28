@@ -1,0 +1,17 @@
+{
+  "name": "agripulse-ai",
+  "version": "1.0.0",
+  "description": "AgriPulse AI: Intelligent Precision Agriculture & Crop Advisory Assistant",
+  "scripts": {
+    "migrate": "node scripts/apply-migrations.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "dotenv": "^16.4.5",
+    "pg": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/pg": "^8.11.10"
+  }
+}
